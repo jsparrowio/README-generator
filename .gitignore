@@ -1,3 +1,8 @@
 #MacFiles
 .DS_Store
 utils/.DS_Store
+
+#NodeModules
+node_modules/
+
+DRAFTREADME.md
