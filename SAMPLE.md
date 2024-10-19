@@ -18,11 +18,11 @@ A node.js program that you can use to generate a professional README for your co
   
 ## Installation
   
-Download the source code for the project using a git clone on this repository. Then, CD in your terminal to the directory that contains the cloned repo, and run an npm i to ensure that you have all required dependencies to run the package successfully.
+Download the source code for the project using a <code>git clone</code> on this repository in your terminal. Then, <code>cd</code> in your terminal to the directory that contains the cloned repo, and run an <code>npm i</code> to ensure that you have all required dependencies to run the package successfully.
   
 ## Usage
   
-To use the program successfully: open a terminal window and CD to the directory that contains the code (specifically index.js) for this program. Then run <code>node index.js</code>, which will then start to ask you a series of questions about your project to be included in your README file. Then, once you answer all questions, the program will then output a README file into the directory you are in labeled GeneratedREADME.md which you can then use for your project.
+To use the program successfully: open a terminal window and <code>cd</code> to the directory that contains the code (specifically index.js) for this program. Then run <code>node index.js</code>, which will then start to ask you a series of questions about your project to be included in your README file. Then, once you answer all questions, the program will then output a README file into the directory you are in labeled GeneratedREADME.md which you can then use for your project.
 
 ## License
 This project uses MIT License.

@@ -30,7 +30,7 @@ const questions = [
         type: "list",
         message: colors.bgCyan("What is license does your project use?"),
         name: "license",
-        choices:["Apache 2.0 License","MIT License","GNU GPL v3 License","BSD 3-Clause License", "No License"]
+        choices:["Apache 2.0 License","MIT License","GNU GPL v3 License","BSD 3-Clause License", "BSD 2-Clause License", "No License"]
     },
     {
         type: "input",
@@ -73,8 +73,7 @@ function init() {
     inquirer 
         .prompt(questions)
         .then((response) => {
-            const generatedREADME = generateMarkdown(response);
-            writeToFile('GeneratedREADME.md', generatedREADME)
+            writeToFile('GeneratedREADME.md', generateMarkdown(response))
         });
 }
 

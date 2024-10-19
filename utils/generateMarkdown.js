@@ -3,23 +3,28 @@
 function renderLicenseBadge(license) {
   let licenseBadge;
   if (license === "Apache 2.0 License") {
-      licenseBadge = `
+    licenseBadge = `
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
       `;
   } else if (license === "MIT License") {
-      licenseBadge = `
+    licenseBadge = `
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
       `;
   } else if (license === "GNU GPL v3 License") {
-      licenseBadge = `
+    licenseBadge = `
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
       `;
-  } else if (license === "BSD 3-Clause License")  {
-      licenseBadge = `
+  } else if (license === "BSD 3-Clause License") {
+    licenseBadge = `
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
       `;
-  } else {
-      licenseBadge = " ";
+  } else if (license === "BSD 2-Clause License") {
+    licenseBadge = `
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+    `;
+  }
+  else {
+    licenseBadge = '';
   }
   return licenseBadge;
 }
@@ -27,30 +32,31 @@ function renderLicenseBadge(license) {
 // Function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'No License'){
-  const licenseLink = `
+  if (license !== 'No License') {
+    const licenseLink = `
 - [License](#license)`;
-  return licenseLink;
+    return licenseLink;
   } else {
-      const licenseLink = '';
-      return licenseLink;
+    const licenseLink = '';
+    return licenseLink;
   }
 }
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== 'No License'){
-  const licenseSection = `
+  if (license !== 'No License') {
+    const licenseSection = `
 ## License
 This project uses ${license}.
 
 Please refer to LICENSE file for more information.
 `
-return licenseSection;} else {
+    return licenseSection;
+  } else {
     const licenseSection = '';
     return licenseSection;
-}
+  }
 }
 
 // Function to generate markdown for README
