@@ -24,8 +24,6 @@ Download the source code for the project using a <code>git clone</code> on this 
   
 To use the program successfully: open a terminal window and <code>cd</code> to the directory that contains the code (specifically index.js) for this program. Then run <code>node index.js</code>, which will then start to ask you a series of questions about your project to be included in your README file. Then, once you answer all questions, the program will then output a README file into the directory you are in labeled GeneratedREADME.md which you can then use for your project.
 
-For a walkthrough on how to use this project, please see the video linked: [here](https://drive.google.com/file/d/1zRQDA0HJcIB5jowqgJ5-Tow_qnP43tJD/view?usp=drive_link)
-
 ## License
 This project uses MIT License.
 

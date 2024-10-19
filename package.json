@@ -1,15 +1,17 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A professional README generator",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jsparrowio <jsparrowio@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
     "inquirer": "8.2.4"
   }
 }
