@@ -17,8 +17,10 @@ A node.js program that you can use to generate a professional README for your co
 - [Questions](#questions)
   
 ## Installation
-  
-Download the source code for the project using a <code>git clone</code> on this repository in your terminal. Then, <code>cd</code> in your terminal to the directory that contains the cloned repo, and run an <code>npm i</code> to ensure that you have all required dependencies to run the package successfully.
+
+Prerequisite: You must have node.js installed in your local zsh/bash command line interface prior to installing this program. If you do not have these installed, please follow the installation instructions [here](https://nodejs.org/).
+
+Download the source code for the project with a <code>git clone</code> on this repository in your CLI using the URL or SSH link provided in the "code" button at the top of this repository. Then, <code>cd</code> in your terminal to the directory that contains the cloned repo, and run an <code>npm i</code> to ensure that you have all required dependencies to run the package successfully.
   
 ## Usage
   
