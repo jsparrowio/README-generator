@@ -18,13 +18,13 @@ A node.js program that you can use to generate a professional README for your co
   
 ## Installation
 
-Prerequisite: You must have node.js installed in your local zsh/bash command line interface prior to installing this program. If you do not have these installed, please follow the installation instructions [here](https://nodejs.org/).
+Prerequisite: You must have node.js and npm (npm is typically included with node) installed in your local zsh/bash command line interface prior to installing this program. If you do not have node & npm installed, please follow the installation instructions [here](https://nodejs.org/).
 
 Download the source code for the project with a <code>git clone</code> on this repository in your CLI using the URL or SSH link provided in the "code" button at the top of this repository. Then, <code>cd</code> in your terminal to the directory that contains the cloned repo, and run an <code>npm i</code> to ensure that you have all required dependencies to run the package successfully.
   
 ## Usage
   
-To use the program successfully: open a terminal window and <code>cd</code> to the directory that contains the code (specifically index.js) for this program. Then run <code>node index.js</code>, which will then start to ask you a series of questions about your project to be included in your README file. Then, once you answer all questions, the program will then output a README file into the directory you are in labeled GeneratedREADME.md which you can then use for your project.
+To use the program successfully: open a CLI window and <code>cd</code> to the directory that contains the code (specifically index.js) for this program. Then run <code>node index.js</code>, which will then start to ask you a series of questions about your project to be included in your README file. Then, once you answer all questions, the program will then output a README file into the directory you are in labeled GeneratedREADME.md which you can then use for your project.
 
 For a walkthrough on how to use this project, please see the video linked: [here](https://drive.google.com/file/d/1zRQDA0HJcIB5jowqgJ5-Tow_qnP43tJD/view?usp=drive_link)
 
